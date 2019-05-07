@@ -7,7 +7,7 @@ testDom.textContent = test;
 
 // scale 1/dpr
 document
-  .getElementByName("viewport")[0]
+  .getElementsByName("viewport")[0]
   .setAttribute("content", "width=device-width,initail-scale=" + 1 / dpr);
 
 test += "changed initial scale";
