@@ -1,2 +1,4 @@
 const testDom = document.getElementById("test");
-testDom.textContent = "client width: " + document.documentElement.clientWidth;
+let test = "client width: " + document.documentElement.clientWidth;
+test += "dpr: " + window.devicePixelRatio;
+testDom.textContent = test;
